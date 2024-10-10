@@ -86,7 +86,7 @@ public class PR14GestioLlibreriaOrgJsonMainTest {
         app.guardarLlibres(llibres);
 
         // Llegeix el fitxer de sortida i verifica el contingut
-        File outputFile = new File(tempFile.getParent(), "llibres_output_org.json");
+        File outputFile = new File(tempFile.getParent(), "llibres_output_json_org.json");
         assertTrue(outputFile.exists(), "El fitxer de sortida hauria d'existir.");
 
         // Llegeix el contingut del fitxer de sortida

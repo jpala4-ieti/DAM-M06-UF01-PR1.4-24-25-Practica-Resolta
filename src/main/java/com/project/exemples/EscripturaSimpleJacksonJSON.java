@@ -35,7 +35,7 @@ public class EscripturaSimpleJacksonJSON {
         persona.put("telefon", new Map[]{telefonCasa, telefonMobil});
 
         // Defineix la ruta del fitxer on es guardarà el JSON
-        File file = new File("data/exemples/json_escriptura_simple_jackson.json");
+        File file = new File("data/exemples/json_escriptura_simple_output_jackson.json");
 
         // Crear l'objecte ObjectMapper per gestionar l'escriptura del fitxer JSON
         ObjectMapper objectMapper = new ObjectMapper();

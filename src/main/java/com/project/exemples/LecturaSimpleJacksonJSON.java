@@ -9,7 +9,7 @@ import java.io.IOException;
 public class LecturaSimpleJacksonJSON {
     public static void main(String[] args) {
         // Defineix la ruta del fitxer JSON
-        File file = new File("data/exemples/json_lectura_simple.json");
+        File file = new File("data/exemples/json_lectura_simple_input.json");
 
         // Crea un objecte ObjectMapper per treballar amb Jackson
         ObjectMapper objectMapper = new ObjectMapper();

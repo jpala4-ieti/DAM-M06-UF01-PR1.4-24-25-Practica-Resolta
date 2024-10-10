@@ -31,7 +31,7 @@ public class EscripturaSimpleJakartaJSON {
                 .build();
 
         // Defineix la ruta del fitxer on es guardarà el JSON
-        String filePath = "data/exemples/json_escriptura_simple.json";
+        String filePath = "data/exemples/json_escriptura_simple_output_jakarta.json";
 
         // Escriu el JSON en el fitxer especificat
         try (JsonWriter jsonWriter = Json.createWriter(new FileWriter(filePath))) {

@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class LecturaSimpleJakartaJSON {
     public static void main(String[] args) {
-        try (JsonReader jsonReader = Json.createReader(new FileReader("data/exemples/json_lectura_simple.json"))) {
+        try (JsonReader jsonReader = Json.createReader(new FileReader("data/exemples/json_lectura_simple_input.json"))) {
             JsonObject jsonObject = jsonReader.readObject();
             System.out.println(jsonObject);
         } catch (IOException e) {

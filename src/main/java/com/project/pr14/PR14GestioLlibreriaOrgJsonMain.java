@@ -128,7 +128,7 @@ public class PR14GestioLlibreriaOrgJsonMain {
             jsonArray.put(llibreJson);
         }
 
-        try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(dataFile.getParent(), "llibres_output_org.json"))) {
+        try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(dataFile.getParent(), "llibres_output_json_org.json"))) {
             writer.write(jsonArray.toString(4)); // Format JSON amb indentació
         } catch (IOException e) {
             e.printStackTrace();
